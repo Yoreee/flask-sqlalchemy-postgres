@@ -1,2 +1,2 @@
 # flask-sqlalchemy-postgres
-Basic project with flask, sqlalchemy, and postrgres
+Basic microservice with flask, sqlalchemy, and postrgres
