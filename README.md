@@ -1,9 +1,6 @@
 # flask-sqlalchemy-postgres
 Basic microservice with flask, sqlalchemy, and postrgres
 
-Used this as a guide:
-https://www.youtube.com/watch?v=PTZiDnuC86g
-
 
 Using Python 3:
 $ python3 —version
