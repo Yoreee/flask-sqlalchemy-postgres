@@ -1,5 +1,5 @@
 # flask-sqlalchemy-postgres
-This is a basic microservice with flask, sqlalchemy, and postrgres.
+This is a basic microservice using Flask, Sqlalchemy, and Postgres.
 
 
 ### Using Python 3:
