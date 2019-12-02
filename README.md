@@ -2,10 +2,10 @@
 This is a basic microservice with flask, sqlalchemy, and postrgres.
 
 
-Using Python 3:
+### Using Python 3:
 `$ python3 —version`
 
-Install pipenv package manager:
+### Install pipenv package manager:
 `$ pip3 install pipenv`
 
 Create project folder to create pipfile, virtual env, and activate it:
