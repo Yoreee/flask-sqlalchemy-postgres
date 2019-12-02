@@ -8,23 +8,23 @@ This is a basic microservice with flask, sqlalchemy, and postrgres.
 ### Install pipenv package manager:
 `$ pip3 install pipenv`
 
-Create project folder to create pipfile, virtual env, and activate it:
+### Create project folder to create pipfile, virtual env, and activate it:
 `$ pipenv shell`
 
-To exit/deactivate pipenv environment:
+### To exit/deactivate pipenv environment:
 `$ exit`
 
-Install libraries and binaries:
+### Install libraries and binaries:
 `$ pipenv install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy psycopg2-binary`
 
-Migrate DB schema:
+### Migrate DB schema:
 `$ python`
 `>>> from app import db`
 `>>> db.create_all()`
 
 
 
-TO DO:
+### TO DO:
 
 
 1. Deal with this: WARNING: This is a development server. Do not use it in a production deployment.
