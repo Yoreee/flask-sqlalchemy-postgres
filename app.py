@@ -41,6 +41,7 @@ class ProductSchema(ma.Schema):
 product_schema = ProductSchema()
 products_schema = ProductSchema(many=True)
 
+# Create/add new
 @app.route('/product', methods=['POST'])
 def add_product():
     name = request.json['name']
@@ -68,6 +69,7 @@ def get_product(id):
     
     return product_schema.jsonify(product)
 
+# Update existing item
 @app.route('/product/<id>', methods=['PUT'])
 def update_product(id):
     product = Product.query.get(id)
@@ -86,6 +88,7 @@ def update_product(id):
 
     return product_schema.jsonify(product)
 
+# Delete one
 @app.route('/product/<id>', methods=['DELETE'])
 def delete_product(id):
     product = Product.query.get(id)
@@ -98,7 +101,7 @@ def delete_product(id):
         # Can't find the item we want to delete
         return product_schema.jsonify({})
 
-
+# Base route
 @app.route('/', methods=['GET'])
 def get():
     return jsonify({"hey":"hi"})
