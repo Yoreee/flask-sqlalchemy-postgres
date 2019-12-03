@@ -27,7 +27,7 @@ This is a basic microservice using Flask, Sqlalchemy, and Postgres.
 ### TO DO:
 
 
-1. Deal with this: WARNING: This is a development server. Do not use it in a production deployment.
+1. Deal with this: >>>WARNING: This is a development server. Do not use it in a production deployment.
 Get this on a production ready server.
 
 2. Deploy this microservice to AWS.
